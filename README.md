@@ -1,4 +1,5 @@
-### GemFire Server CQs Close Function
+# GemFire Server CQs Close Function
+## GemFire V9 and Above
 
 GemFire:
 <function-service>
