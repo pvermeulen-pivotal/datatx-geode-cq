@@ -3,18 +3,18 @@
 The project provides a function to stop and close all active client continuous queries on cache server(s). 
 
 ### GemFire
-<function-service>
+    <function-service>
 	<function>
 		<class-name>datatx.util.gemfire.cq.CloseServerCqs</class-name>
 	</function>
-</function-service>
+    </function-service>
 
 ### Spring
-<gfe:function-service>
+    <gfe:function-service>
 	<gfe:function>
 		<bean class="datatx.util.gemfire.cq.CloseServerCqs" />
 	</gfe:function>
-</gfe:functio-service>
+    </gfe:functio-service>
 
 ### GFSH Command
 
